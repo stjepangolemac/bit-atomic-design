@@ -1,0 +1,21 @@
+.header {
+  background: #2B8ADF;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+
+}
+
+.header h1 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 25px;
+  color: white;
+}
+
+.header .group {
+  display: flex;
+  align-items: center;
+}
