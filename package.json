@@ -8,5 +8,8 @@
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html"
   }
 }
