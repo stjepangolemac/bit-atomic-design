@@ -1,0 +1,10 @@
+.tool-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tool-link .label {
+  margin-top: 10px;
+  text-transform: capitalize;
+}

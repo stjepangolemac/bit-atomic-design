@@ -12,7 +12,7 @@ function UserInfo(props) {
   return (
     <span className="user-info">
       <AvatarImage url={avatarUrl} />
-      <Label value={username} />
+      <Label white value={username} />
     </span>
   )
 }

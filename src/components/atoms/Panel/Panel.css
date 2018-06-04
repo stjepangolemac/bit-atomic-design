@@ -1,0 +1,12 @@
+.panel {
+  width: 32%;
+  min-width: 390px;
+  height: 300px;
+  padding: 5px;
+}
+
+.panel .inner {
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 2px 15px -3px grey;
+}
