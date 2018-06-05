@@ -1,0 +1,42 @@
+.temperature-panel {
+  position: relative;
+  height: 100%;
+  background-image: url("./background.jpg");
+}
+
+.temperature-panel .overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  background: rgba(102,150,221,0.6);
+}
+
+.overlay .split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay .main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay .main div:first-child {
+  margin-bottom: 15px;
+}
+
+.margin {
+  margin-left: 5px;
+}
+
+.flex {
+  display: flex;
+}
